@@ -1,0 +1,19 @@
+{
+  "name": "gunjs",
+  "version": "1.0.0",
+  "description": "for gunjs",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "nodemon --exec electron ."
+  },
+  "author": "akhil",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^17.0.0",
+    "gun": "^0.2020.1235"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
